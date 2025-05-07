@@ -1,0 +1,230 @@
+body{
+    background: linear-gradient(to right, #ff3131, #720000);
+margin: 20px;
+font-family: 'Bebas Neue', sans-serif;
+color: white;
+}
+
+.content{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.logog{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+#side2 li{
+list-style-type: none;
+}
+
+
+nav li{
+display: flex;
+gap: 50px;
+}
+
+#abou{
+font-size: 90px;
+font-weight: bolder;
+}
+
+#side2 p{
+line-height: 30px;
+
+a{
+text-decoration: none;
+color: black;
+}
+
+}
+
+#Bcontact{
+color: black;
+background-color: white;
+width: 130px;
+height: 30px;
+border-radius: 3px;
+display: flex;
+line-height: 33px;
+justify-content: center;
+}
+
+#arrow{
+text-align: right;
+display: fixed;
+line-height: 200px;
+}
+
+#logo{
+width: 70px;
+height: 70px;
+}
+
+#pic img{
+border-radius: 10px;
+height: 200px;
+width: 400px;
+object-fit: cover;
+object-position: center;
+
+}
+#pic{
+padding: 10px;
+display: flex;
+gap: 20px;
+flex-direction: column;
+justify-self: center;
+
+}
+
+
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 20px;
+}
+nav a:hover {
+background-color: white;
+color: #d32f2f;
+}
+
+
+@media (max-width: 600px){
+.content{
+grid-template-columns: repeat(1, 1fr);
+}
+
+nav li{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+#abou{
+font-size: 50px;
+font-weight: bolder;
+text-align: center;
+}
+
+#pic img{
+border-radius: 10px;
+height: 100px;
+width: 200px;
+align-items: center;
+object-fit: cover;
+object-position: center;
+}
+
+#logo{
+width: 45px;
+height: 45px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 20px;
+}
+nav a:hover {
+background-color: white;
+color: #d32f2f;
+}
+
+.logog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    font-size: small;
+}
+
+
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+.content{
+grid-template-columns: repeat(1, 1fr);
+}
+
+nav li{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+#abou{
+font-size: 50px;
+font-weight: bolder;
+text-align: center;
+}
+
+
+#pic img{
+border-radius: 10px;
+height: 200px;
+width: 200px;
+align-items: center;
+flex-direction: row;
+    justify-self: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+#logo{
+width: 70px;
+height: 70px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 20px;
+}
+nav a:hover {
+background-color: white;
+color: #d32f2f;
+}
+
+.logog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#pic{
+    flex-direction: row;
+
+}
+
+#side2 p{
+    line-height: 30px;
+
+}
+
+h2{
+    font-size: xx-large;
+}
+
+#Bcontact{
+    color: black;
+    background-color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    line-height: 33px;
+    justify-content: center;
+}
+
+}

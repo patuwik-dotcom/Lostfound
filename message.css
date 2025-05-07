@@ -1,0 +1,95 @@
+body{background: linear-gradient(to right, #ff3131, #720000);
+    padding: 20px;
+    
+}
+
+#messagecontainer{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   height: 90vh; 
+   padding: 20px;
+   
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 100%;
+
+}
+
+#txtarea{
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+
+#type{
+    border-radius: 50px;
+    padding-left: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+#sendb{
+    background-color: #720000;
+    color: white;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#sendb:hover{
+    background-color: #ff3131;
+}
+
+.message {
+background-color: #eee;
+padding: 10px 15px;
+border-radius: 20px;
+align-self: flex-start;
+width: fit-content;
+margin-bottom: 10px;
+}
+
+.message.user {
+background-color: #ff3131;
+color: white;
+align-self: flex-end;
+}
+#profile p {
+text-align: center;
+margin-top: -45px;
+font-size: x-large;
+font-weight: bolder;
+}
+a {
+text-decoration: none;
+font-weight: bolder;
+font-size: x-large;
+color: #000000;
+padding-left: 20px;
+display: flex;
+align-items: center;
+width: 45px;
+height: 45px;
+padding-left: 30px;
+}
+
+a:hover{
+background-color: #ff3131;
+color: #eee;
+width: 45px;
+border-radius: 50px;
+
+}

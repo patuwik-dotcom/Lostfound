@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Report Lost Item</title>
+  <link rel="stylesheet" href="post.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-container">
+      <h2 class="mb-4 text-center">Report a Lost Item</h2>
+
+      <form action="#" method="POST" enctype="multipart/form-data" onsubmit="alert('Your report has been submitted!'); return false;">
+        
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your full name">
+        </div>
+
+        <div class="mb-3">
+          <label for="cys" class="form-label">Course / Year / Section</label>
+          <input type="text" class="form-control" id="cys" name="cys" required placeholder="e.g. BSIT / 1st Year / A">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" required placeholder="you@example.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="item" class="form-label">Item Category</label>
+          <input type="text" class="form-control" id="item" name="item" required placeholder="e.g. Wallet, Phone, Tumbler">
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Item Description</label>
+          <textarea class="form-control" id="description" name="description" rows="4" placeholder="Describe color, size, brand, etc." required></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="locationlost" class="form-label">Location Lost or Found</label>
+          <input type="text" class="form-control" id="locationlost" name="locationlost" required placeholder="Where you lost/found the item">
+        </div>
+
+        <div class="mb-3">
+          <label for="datelost" class="form-label">Date Item Was Lost</label>
+          <input type="date" class="form-control" id="datelost" name="datelost" required>
+        </div>
+
+        <div class="mb-4">
+          <label for="file" class="form-label">Upload a Photo</label>
+          <input class="form-control" type="file" id="file" name="file" accept=".jpg,.jpeg,.png" required>
+        </div>
+
+        <button type="submit" class="btn btn-danger w-100">Submit Lost Item Report</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

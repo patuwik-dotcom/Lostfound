@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background: linear-gradient(to right, #ff3131, #720000);
+    color: white;
+    width: auto;
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  .logo {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+  }
+  nav a:hover {
+    background-color: white;
+    color: #d32f2f;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+  }
+  .text-content {
+    max-width: 50%;
+    margin-top: 100px;
+  }
+  .text-content h4 {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  .text-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 0%;
+  }
+  .text-content h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .text-content p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .text-content button {
+    background-color: white;
+    color: #2196f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .text-content button::after {
+    content: '>';
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .image-container {
+    position: relative;
+    background-color: white;
+    margin: 50px;
+    padding: 8px;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px){
+    .content{
+      display: flex;
+      flex-direction: column;
+      padding: 1px;
+      margin: -90px;
+    }
+
+    header{
+      font-size: smaller;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+ 
+
+

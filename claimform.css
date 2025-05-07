@@ -1,0 +1,29 @@
+
+
+  body {
+    background: linear-gradient(to right, #ff3131, #720000);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .form-container {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .form-label {
+    font-weight: 600;
+  }
+
+  .btn-danger {
+    font-weight: bold;
+  }
+
+  .btn-danger:hover {
+    background-color: #ff3333;
+  }

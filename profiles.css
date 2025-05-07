@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #f05f5f, #be1c1c);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+
+  .lead {
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .pheader {
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-weight: 1000;
+  }
+
+  .pcard {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .pcard:hover {
+    transform: scale(1.03);
+  }
+
+  .p-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .card-cont {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card-cont h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .socials {
+    margin-top: 10px;
+  }
+
+  .socials a {
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #be1c1c;
+  }
+
+  .socials a:hover {
+    color: #8a0f0f;
+  }
+
+  p {
+    color: #4f555a;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .pheader h1 {
+      font-size: 24px;
+    }
+    .pheader p {
+      font-size: 15.2px;
+    }
+  }
